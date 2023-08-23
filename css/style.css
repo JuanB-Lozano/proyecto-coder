@@ -198,19 +198,35 @@
 
  /* medidas mobile 320px hasta 768px  */
 
-@media (max-width: 768px){
+@media (min-width: 320px){
   .card-index{
     width:100%;
     display: flex;
     flex-direction: column;
   }
+  .intro-media{
+    width: 100%;
+    display: flex;
+  }
+  .showroom-media{
+    display: flex;
+    flex-flow: row wrap;
+  }
 }
 
 /* medidas tablet 768px hasta 1024*/
-@media (max-width: 1024px){
+@media (min-width: 768px){
   .card-index{
     width: 50%;
     display: flex;
+  }
+  .intro-media{
+    width: 100%;
+    display: flex;
+  }
+  .showroom-media{
+    display: flex;
+    flex-flow: row wrap;
   }
 }
 
