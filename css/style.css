@@ -76,26 +76,23 @@
 
  
  #showroom {
-   width: 70%;
-   padding-left: 20%;
- }
-
- .grid-container {
-    display: grid;
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
  }
 
  .container {
-    background-color:#353846 !important;
-    border-radius: 5px;
+    background-color:#353846 ;
+    border-radius: 10px;
     padding: 20px;
  }
 
  .divGrid {
     display: grid;
     grid-template-columns: 3fr 1fr 3fr;
-    
-    background-color: #ccc;
  }
+ 
  .divVacio {
     padding: 5%;
     width: 5%;
@@ -105,36 +102,12 @@
     padding: 2%;
  }
 
- .divItem {
-    border: 1px solid rgb(0, 0, 0);
-    background-color: #232d4b;
-    border-radius: 20px 20px 20px 20px;
- }
-
- .divFlex {
+ .showroom {
     display: flex;
     flex-direction: column;
  }
-
- .divBox1 {
-    display: flex;
-    justify-content: center;
- }
-
- .divBox2 {
-    display: flex;
-    justify-content: center;
- }
-
- a {
-    color: #000;
-  }
  
- center {
-    padding-top: 10%;
-  }
- 
-  /* Seccion de boton y forma de "Nosotros", tengo que corregirlo para que quede prolijo, no tuve tiempo*/
+  /* Seccion de boton y forma de "Nosotros"*/
   input[type=text], select, textarea {
    width: 100%;
    padding: 12px;
@@ -146,21 +119,12 @@
    resize: vertical;
  }
  
- input[type=submit], .buscar {
-   background-color: #ff5342;
+ input[type=submit] {
    color: white;
    padding: 12px 20px;
    border: none;
    border-radius: 4px;
    cursor: pointer;
- }
- 
- input[type=submit]:hover {
-   background-color: #fe6d4e;
- }
- 
- .buscar:hover {
-   background-color: #fe6d4e;
  }
  
  /* Seccion Carrito*/
@@ -195,39 +159,10 @@
   flex-direction: column;
   flex-wrap: wrap;
  }
+@media only screen and (min-width: 320px) and (max-width: 428px){}
 
-@media (max-width: 768px){
-  .card-index{
-    width: 50%;
-    display: flex;
-  }
-  .intro-media{
-    width: 100%;
-    display: flex;
-    font-size: 2rem;
-  }
-  .index-section{
-    width: 100%;
-    display: flex;
-    flex-flow:column wrap;
-  }
-}
+@media only screen and (min-width: 768px) and (max-width: 1024px){}
 
-@media (max-width: 428px){
-  .card-index{
-    width: 50%;
-    display: flex;
-  }
-  .intro-media{
-    width: 100%;
-    display: flex;
-    font-size: 2rem;
-  }
-  .index-section{
-    width: 100%;
-    display: flex;
-    flex-flow:column wrap;
-  }
-}
+
 
  
