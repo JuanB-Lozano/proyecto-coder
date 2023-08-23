@@ -200,18 +200,34 @@
   .card-index{
     width: 50%;
     display: flex;
-  };
+  }
   .intro-media{
     width: 100%;
     display: flex;
-    font-size: 3rem;
-  };
+    font-size: 2rem;
+  }
   .index-section{
     width: 100%;
     display: flex;
     flex-flow:column wrap;
-  };
+  }
 }
 
+@media (max-width: 428px){
+  .card-index{
+    width: 50%;
+    display: flex;
+  }
+  .intro-media{
+    width: 100%;
+    display: flex;
+    font-size: 2rem;
+  }
+  .index-section{
+    width: 100%;
+    display: flex;
+    flex-flow:column wrap;
+  }
+}
 
  
