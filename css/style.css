@@ -106,7 +106,7 @@
  }
 
  .divItem {
-    border: 1px solid red;
+    border: 1px solid rgb(0, 0, 0);
     background-color: #232d4b;
     border-radius: 20px 20px 20px 20px;
  }
@@ -195,5 +195,26 @@
   flex-direction: column;
   flex-wrap: wrap;
  }
+
+ /* medidas mobile 320px hasta 768px  */
+
+@media (min-width: 768px){
+  .body-media{
+      background-color: green;
+  }
+  h1{
+      color: yellow;
+  }
+}
+
+/* medidas tablet 768px hasta 1024*/
+@media (min-width: 1024px){
+  /* HASTA 1024 ES TABLET */
+  .body-media{
+      background-color: aqua;
+  }
+}
+
+/* medidas desktop > 1024px hasta 1800px */
 
  
