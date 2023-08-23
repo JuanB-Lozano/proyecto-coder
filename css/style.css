@@ -198,7 +198,7 @@
 
  /* medidas mobile 320px hasta 768px  */
 
-@media (min-width: 768px){
+@media (min-width: 320px){
   .card-index{
     width:100%;
     display: flex;
@@ -207,10 +207,10 @@
 }
 
 /* medidas tablet 768px hasta 1024*/
-@media (min-width: 1024px){
-  /* HASTA 1024 ES TABLET */
-  .body-media{
-      background-color: aqua;
+@media (min-width: 768px){
+  .card-index{
+    width: 50%;
+    display: flex;
   }
 }
 
