@@ -199,11 +199,10 @@
  /* medidas mobile 320px hasta 768px  */
 
 @media (min-width: 768px){
-  .body-media{
-      background-color: green;
-  }
-  h1{
-      color: yellow;
+  .card-index{
+    width:100%;
+    display: flex;
+    flex-direction: column;
   }
 }
 
