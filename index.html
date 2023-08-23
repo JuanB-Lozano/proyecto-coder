@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <title>La Magiqueria</title>
+
+</head>
+<body class="bg-secondary">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+
+
+    <section class="nav-container topNav" id="navBar">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+         <div class="container-fluid fluidNav">
+            <a class="navbar-brand" href="index.html">
+               <img src="fotos/logo1.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+               La Magiqueria
+             </a>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+               <li class="nav-item">
+                 <a class="nav-link active navLinks" aria-current="page" href="index.html">Inicio</a>
+               </li>
+               <li class="nav-item dropdown navLinks">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Productos
+                  </a>
+                  <ul class="dropdown-menu col-sm-10 dropdownMenu">
+                    <li><a class="dropdown-item navLinks" href="html/bootTcg.html">Juegos de Cartas</a></li>
+                    <li><a class="dropdown-item navLinks" href="html/bootTtrpg.html">Juegos de Mesa</a></li>
+                    <li><a class="dropdown-item navLinks" href="html/bootAccesorios.html">Accesorios</a></li>
+                  </ul>
+                </li>
+               <li class="nav-item">
+                 <a class="nav-link navLinks" href="html/bootNosotros.html">Contacto</a>
+               </li>
+               <li class="nav-item">
+                 <form><a href="html/bootCarrito.html" class="carrito nav-link cart-flex"><button type="button" class="btn btn-outline-success btn-flex" value="carrito.html"><img src="fotos/carrito.jpg" alt="carrito" class="cartFoto"></button></a></form>
+               </li>
+             </ul>
+             <form class="d-flex searchBar" role="search">
+               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+               <button class="btn btn-outline-success btn-flex" type="submit">Search</button>
+             </form>
+           </div>
+         </div>
+       </nav>
+   </section>
+
+   <section class="carousel-container carousel index-section">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+         <div class="carousel-inner">
+           <div class="carousel-item active">
+             <img src="fotos/dndBanner2.jpg" class="d-block w-100" alt="DnD Handbook">
+           </div>
+           <div class="carousel-item">
+             <img src="fotos/dndBanner4.jpg" class="d-block w-100" alt="MTG Lord Of The Rings">
+           </div>
+           <div class="carousel-item">
+             <img src="fotos/dndBanner3.jpg" class="d-block w-100" alt="Yu-Gi-Oh! Zombie Structure Deck">
+           </div>
+         </div>
+         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Previous</span>
+         </button>
+         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+           <span class="carousel-control-next-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Next</span>
+         </button>
+       </div>
+   </section>
+
+   <section class="grid-container index-section bg-secondary">
+     <div class="divGrid container bg-secondary">
+         <div class="divItem1 divItem row d-flex introItem container"> <p><b><i>Somos La Magiqueria,</i></b> nos especializamos en toda clase de juegos de mesa, del Estanciero a las Cartas Magic y Dungeons & Dragons. En nuestro eshop vas a encontrar toda clase de productos para entretener tus findes. Tambien nos aplicamos a la produccion de miniaturas impresas 3D con filamento (PLA) y hacemos nuestros propios dados. </p></div>
+         <div class="divVacio2"></div>
+         <div class="divFlex divItem divItem2 d-flex container">
+             <div class="divBox1 col-sm-12 col-md-8 col-lg-12"><img src="fotos/showroom1.jpg" alt="showroom" class="showroom1 showFlex1 introItem2 w-100" id="showroom"></div>
+             <div class="divVacio"></div>
+             <div class="divBox2 col-sm-12 col-md-8 col-lg-12"><img src="fotos/showroom2.jpg" alt="showroom" class="showroom2 showFlex2 introItem3 w-100" id="showroom"></div>
+         </div>
+      </div>
+   </section>
+   
+   <h2 class="nuevosTitulo container bg-secondary">Nuevos Arribos</h2>
+
+   <section class="card-container container d-flex index-section bg-secondary">
+      <div class="card card-flex" style="width: 18rem;">
+         <img src="fotos/mtgLotr.jpg" class="card-img-top mtgLotr1" alt="MTG LoTR">
+         <div class="card-body">
+           <h5 class="card-title">Booster Packs MTG Lord Of The Rings</h5>
+           <p class="card-text"></p>
+           <a href="#" class="btn btn-outline-success btn-flex">Agregar</a>
+         </div>
+       </div>
+       <div class="card card-flex" style="width: 18rem;">
+         <img src="fotos/mtgLotr2.jpg" class="card-img-top mtgLotr2" alt="MTG LoTR">
+         <div class="card-body">
+           <h5 class="card-title">Booster Packs MTG Lord Of The Rings</h5>
+           <p class="card-text"></p>
+           <a href="#" class="btn btn-outline-success btn-flex">Agregar</a>
+         </div>
+       </div>
+   </section>
+
+
+
+
+   <div class="footer-bot">
+      <div class="copy">
+          <p>Copyright &copy; 2023</p>
+      </div>
+  </div>
+
+</body>
+</html>

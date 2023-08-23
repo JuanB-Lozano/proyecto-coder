@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&family=Roboto:wght@100&display=swap');
+
+ body {
+    background-color:#353846;
+ }
+ 
+ h1 {
+    display: flex;
+    text-decoration: underline;
+    justify-content: center;
+    padding-top: 3%;
+   }
+ 
+ h2 {
+   color: #ff5342;
+ }
+
+ h3 {
+   text-decoration: underline;
+ }
+
+ .introItem {
+    font-family: 'Open Sans';
+    color:antiquewhite
+ }
+
+ .nav-item {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+
+ .carousel > .carousel-inner > .carousel-item > img{
+   width:240px;
+   height:300px;
+}
+
+ .searchBar {
+   display:flex;
+ }
+ 
+  .topNav {
+   border-bottom: 2px solid #000;
+   width:100%;
+   top:0px;
+   color: #403a79;
+   text-align: center;
+   font-family: 'system-ui';
+   background-color: #232d4b;
+   align-items: center;
+  }
+
+  .nav-item {
+   color:#232d4b;
+  }
+ 
+ .logo {
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+ }
+ 
+ .navLinks {
+   display: flex;
+   flex-direction: row;
+   color: #fe6d4e;
+   padding-right: 30px;
+ }
+
+ .card-flex {
+   display: flex;
+ }
+
+ 
+ #showroom {
+   width: 70%;
+   padding-left: 20%;
+ }
+
+ .grid-container {
+    display: grid;
+ }
+
+ .container {
+    background-color:#353846 !important;
+    border-radius: 5px;
+    padding: 20px;
+ }
+
+ .divGrid {
+    display: grid;
+    grid-template-columns: 3fr 1fr 3fr;
+    
+    background-color: #ccc;
+ }
+ .divVacio {
+    padding: 5%;
+    width: 5%;
+ }
+
+ .divVacio2 {
+    padding: 2%;
+ }
+
+ .divItem {
+    border: 1px solid red;
+    background-color: #232d4b;
+    border-radius: 20px 20px 20px 20px;
+ }
+
+ .divFlex {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .divBox1 {
+    display: flex;
+    justify-content: center;
+ }
+
+ .divBox2 {
+    display: flex;
+    justify-content: center;
+ }
+
+ a {
+    color: #000;
+  }
+ 
+ center {
+    padding-top: 10%;
+  }
+ 
+  /* Seccion de boton y forma de "Nosotros", tengo que corregirlo para que quede prolijo, no tuve tiempo*/
+  input[type=text], select, textarea {
+   width: 100%;
+   padding: 12px;
+   border: 1px solid #ccc; 
+   border-radius: 4px;
+   box-sizing: border-box;
+   margin-top: 6px;
+   margin-bottom: 16px;
+   resize: vertical;
+ }
+ 
+ input[type=submit], .buscar {
+   background-color: #ff5342;
+   color: white;
+   padding: 12px 20px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+ }
+ 
+ input[type=submit]:hover {
+   background-color: #fe6d4e;
+ }
+ 
+ .buscar:hover {
+   background-color: #fe6d4e;
+ }
+ 
+ /* Seccion Carrito*/
+ .cartFoto {
+   width: 2rem;
+ }
+ 
+ .cart-flex {
+   display: flex;
+ }
+
+ .nuevosTitulo {
+   font-family: 'system-ui';
+ }
+
+ .footer-bot {
+   display: flex;
+   justify-content: center;
+ }
+
+ .tcg-title {
+   background-image: url('../fotos/mtgCards.jpg');
+ }
+
+ .cards-wrapper {
+   display: flex;
+   justify-content: space-evenly;
+ }
+
+ .dropdownMenu {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+ }
+
+ 
