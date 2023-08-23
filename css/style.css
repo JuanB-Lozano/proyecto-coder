@@ -198,7 +198,7 @@
 
  /* medidas mobile 320px hasta 768px  */
 
-@media (min-width: 320px){
+@media (max-width: 768px){
   .card-index{
     width:100%;
     display: flex;
@@ -207,7 +207,7 @@
 }
 
 /* medidas tablet 768px hasta 1024*/
-@media (min-width: 768px){
+@media (max-width: 1024px){
   .card-index{
     width: 50%;
     display: flex;
