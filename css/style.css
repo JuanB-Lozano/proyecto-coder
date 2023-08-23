@@ -198,36 +198,38 @@
 
  /* medidas mobile 320px hasta 768px  */
 
-@media (min-width: 320px){
+@media (max-width: 768px){
   .card-index{
     width:100%;
     display: flex;
     flex-direction: column;
-  }
+  };
   .intro-media{
     width: 100%;
     display: flex;
-  }
+    font-size: 3rem;
+  };
   .showroom-media{
     display: flex;
-    flex-flow: row wrap;
-  }
+    flex-flow: column wrap;
+  };
 }
 
 /* medidas tablet 768px hasta 1024*/
-@media (min-width: 768px){
+@media (max-width: 1024px){
   .card-index{
     width: 50%;
     display: flex;
-  }
+  };
   .intro-media{
     width: 100%;
     display: flex;
-  }
+    font-size: 3rem;
+  };
   .showroom-media{
     display: flex;
-    flex-flow: row wrap;
-  }
+    flex-flow: column wrap;
+  };
 }
 
 /* medidas desktop > 1024px hasta 1800px */
