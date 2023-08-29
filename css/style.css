@@ -70,10 +70,6 @@
    padding-right: 30px;
  }
 
- .tcg-card {
-  width: 18rem;
- }
-
  @media screen and (max-width:1024px) {
   .carousel-item-index {
     height:24rem;
