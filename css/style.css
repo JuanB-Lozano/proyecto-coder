@@ -116,30 +116,24 @@
     padding: 2%;
  }
 
- #showroom {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
  .showroom {
     display: flex;
     flex-direction: column;
+    width: 50%;
  }
 
  @media only screen and (max-width: 480px){
-  .showroom-media, .divVacio2 {
+  .showroom-media {
     display:none;
   }
 }
 
 @media only screen and (max-width: 1024px){
-  .showroom-media,.divVacio2 {
+  .showroom-media {
     display:none;
   }
 }
- 
+
   /* Seccion de boton y forma de "Nosotros"*/
   input[type=text], select, textarea {
    width: 100%;
