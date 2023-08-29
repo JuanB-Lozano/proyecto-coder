@@ -106,12 +106,15 @@
    display: flex;
  }
 
+ .card-img-top {
+  width: 50%;
+ }
+
  @media screen and (max-width:1024px) {
   .cards-wrapper {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-
   }
  }
 
@@ -164,8 +167,6 @@
  .divVacio2 {
     padding: 2%;
  }
-
-
 
   /* Seccion de boton y forma de "Nosotros"*/
   input[type=text], select, textarea {
