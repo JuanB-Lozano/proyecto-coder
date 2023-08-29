@@ -210,7 +210,7 @@
   .cards-wrapper {
     display: flex;
     flex-flow: column wrap;
-    justify-content: center;
+    justify-content: space-around;
   }
  }
 
