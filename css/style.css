@@ -74,7 +74,7 @@
    display: flex;
  }
 
- @media screen and (max-width: 480px){
+ @media screen and (max-width:1024px) {
   .card {
     width: 24rem;
     height: 24rem;
@@ -83,7 +83,7 @@
   }
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width:480px) {
   .card {
     width: 28rem;
     height: 28rem;
@@ -98,7 +98,7 @@
     padding: 20px;
  }
 
- @media screen and (max-width:480px) {
+ @media screen and (max-width:1024px) {
   .container {
     display: flex;
     flex-flow: column wrap;
@@ -106,7 +106,7 @@
   }
  }
 
- @media screen and (max-width:1024px) {
+ @media screen and (max-width:480px) {
   .container {
     display: flex;
     flex-flow: column wrap;
@@ -138,13 +138,13 @@
     width: 50%;
  }
 
- @media only screen and (max-width: 480px){
+ @media only screen and (max-width:1024px) {
   .showroom-media {
     display:none;
   }
 }
 
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width:480px) {
   .showroom-media {
     display:none;
   }
