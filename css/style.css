@@ -80,7 +80,11 @@
    display: flex;
  }
 
- .card-img-top {
+ .card-img-store {
+  width: 18rem;
+ }
+
+ .mtg-lotr-index {
   width: 18rem;
  }
 
@@ -166,6 +170,7 @@
  .msj-contacto {
   height:200px;
  }
+
  
  @media screen and (max-width:1024px) {
   .carousel-item-index {
