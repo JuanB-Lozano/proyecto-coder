@@ -102,6 +102,7 @@
   .container {
     display: flex;
     flex-flow: column wrap;
+    background-color: #262737;
   }
  }
 
@@ -109,6 +110,7 @@
   .container {
     display: flex;
     flex-flow: column wrap;
+    background-color: #262737;
   }
  }
 
