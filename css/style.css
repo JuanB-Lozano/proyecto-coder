@@ -70,27 +70,55 @@
    padding-right: 30px;
  }
 
+ @media screen and (max-width:1024px) {
+  .carousel-item-index {
+    height:24rem;
+    width: 24rem;
+  }
+ }
+
+ @media screen and (max-width:480px) {
+  .carousel-item-index {
+    width: 16rem;
+    height: 16rem;
+  }
+ }
+
+ .showroom-media {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+ }
+
+ @media screen and (max-width:1024px) {
+  .showroom-media {
+    display:none;
+  }
+}
+
+@media only screen and (max-width:480px) {
+  .showroom-media {
+    display:none;
+  }
+}
+
  .card-flex {
    display: flex;
  }
 
  @media screen and (max-width:1024px) {
-  .card {
-    width: 24rem;
-    height: 24rem;
+  .cards-wrapper {
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
   }
-}
+ }
 
-@media screen and (max-width:480px) {
-  .card {
-    width: 28rem;
-    height: 28rem;
+ @media screen and (max-width:480px) {
+  .cards-wrapper {
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
   }
-}
+ }
 
  .container {
     background-color:#353846 ;
@@ -99,18 +127,20 @@
  }
 
  @media screen and (max-width:1024px) {
-  .container {
+  .index-section {
     display: flex;
     flex-flow: column wrap;
     background-color: #262737;
+    justify-content: center;
   }
  }
 
  @media screen and (max-width:480px) {
-  .container {
+  .index-section {
     display: flex;
     flex-flow: column wrap;
     background-color: #262737;
+    justify-content: center;
   }
  }
 
@@ -132,23 +162,7 @@
     padding: 2%;
  }
 
- .showroom {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
- }
 
- @media only screen and (max-width:1024px) {
-  .showroom-media {
-    display:none;
-  }
-}
-
-@media only screen and (max-width:480px) {
-  .showroom-media {
-    display:none;
-  }
-}
 
   /* Seccion de boton y forma de "Nosotros"*/
   input[type=text], select, textarea {
