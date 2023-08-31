@@ -171,6 +171,24 @@
   height:200px;
  }
 
+ @media screen and (max-width:1024px) {
+  .intro-media {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #262737;
+    justify-content: center;
+  }
+ }
+
+ @media screen and (max-width:480px) {
+  .intro-media {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #262737;
+    justify-content: center;
+  }
+ }
+
  
  @media screen and (max-width:1024px) {
   .carousel-item-index {
