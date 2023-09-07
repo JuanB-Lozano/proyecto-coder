@@ -76,6 +76,10 @@
     width: 50%;
  }
 
+ .show-flex2 {
+  transform: translateY(10px);
+ }
+
  .card-flex {
    display: flex;
  }
