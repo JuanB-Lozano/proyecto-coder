@@ -1,0 +1,25 @@
+h1 {
+    display: flex;
+    text-decoration: underline;
+    justify-content: center;
+    padding-top: 3%;
+};
+
+h2 {
+    color: #ff5342;
+};
+ 
+h3 {
+    text-decoration: underline;
+};
+
+.nuevosTitulo {
+    font-family: 'system-ui';
+};
+
+.tcg-title {
+    background-image: url('../fotos/mtgCards.jpg');
+    display: flex;
+    justify-content: center;
+};
+

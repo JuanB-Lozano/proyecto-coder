@@ -1,0 +1,49 @@
+.topNav {
+    border-bottom: 2px solid #000;
+    width:100%;
+    top:0px;
+    color: #403a79;
+    text-align: center;
+    font-family: 'system-ui';
+    background-color: #232d4b;
+    align-items: center;
+};
+
+.nav-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#232d4b;
+};
+
+.searchBar {
+    display:flex;
+};
+
+.logo {
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+};
+
+.navLinks {
+    display: flex;
+    flex-direction: row;
+    padding-right: 30px;
+};
+
+.dropdownMenu {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+};
+
+.cartFoto {
+    width: 2rem;
+};
+  
+.cart-flex {
+    display: flex;
+};

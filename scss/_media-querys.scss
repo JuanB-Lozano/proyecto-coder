@@ -1,0 +1,94 @@
+@media screen and (max-width:1024px) {
+    .intro-media {
+      display: flex;
+      flex-flow: column wrap;
+      background-color: #262737;
+      justify-content: center;
+    }
+}
+  
+@media screen and (max-width:480px) {
+    .intro-media {
+      display: flex;
+      flex-flow: column wrap;
+      background-color: #262737;
+      justify-content: center;
+    }
+}
+  
+   
+@media screen and (max-width:1024px) {
+    .carousel-item-index {
+      height:20%;
+    }
+}
+  
+@media screen and (max-width:480px) {
+    .carousel-item-index {
+      height: 10%;
+    }
+}
+   
+@media screen and (max-width:1024px) {
+    .divGrid {
+      display:flex;
+      flex-flow: column wrap;
+    }
+}
+  
+@media only screen and (max-width:480px) {
+    .divGrid {
+      display:flex;
+      flex-flow: column wrap;
+    }
+}
+  
+@media screen and (max-width:1024px) {
+    .cards-wrapper {
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: space-around;
+    }
+}
+  
+@media screen and (max-width:480px) {
+    .cards-wrapper {
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: space-around;
+    }
+}
+  
+@media screen and (max-width:1024px) {
+    .index-section {
+      display: flex;
+      flex-flow: column wrap;
+      background-color: #262737;
+      justify-content: center;
+    }
+}
+  
+@media screen and (max-width:480px) {
+    .index-section {
+      display: flex;
+      flex-flow: column wrap;
+      background-color: #262737;
+      justify-content: center;
+    }
+}
+  
+@media screen and (max-width:1024px) {
+    .tcg-carousel-item {
+      display: flex;
+      justify-content: center;
+    }
+}
+  
+@media screen and (max-width:480px) {
+    .tcg-carousel-item {
+      display: flex;
+      justify-content: center;
+    }
+}
+   
+  
