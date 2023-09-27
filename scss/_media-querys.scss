@@ -15,7 +15,6 @@
       justify-content: center;
     }
 }
-  
    
 @media screen and (max-width:1024px) {
     .carousel-item-index {
@@ -42,12 +41,26 @@
       flex-flow: column wrap;
     }
 }
+
+@media screen and (max-width:1024px) {
+  .carousel-section {
+    display: flex;
+    flex-flow: column wrap;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .carousel-section {
+    display: flex;
+    flex-flow: column wrap;
+  }
+}
   
 @media screen and (max-width:1024px) {
     .cards-wrapper {
       display: flex;
       flex-flow: column wrap;
-      justify-content: space-around;
+      justify-content: center;
     }
 }
   
@@ -55,7 +68,7 @@
     .cards-wrapper {
       display: flex;
       flex-flow: column wrap;
-      justify-content: space-around;
+      justify-content: center;
     }
 }
   

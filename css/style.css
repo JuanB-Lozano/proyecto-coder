@@ -200,6 +200,19 @@ input[type=submit] {
     flex-flow: column wrap;
   }
 }
+@media screen and (max-width:1024px) {
+  .carousel-section {
+    display: flex;
+    flex-flow: column wrap;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .carousel-section {
+    display: flex;
+    flex-flow: column wrap;
+  }
+}
 @media screen and (max-width: 1024px) {
   .cards-wrapper {
     display: flex;
